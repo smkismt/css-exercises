@@ -1,1 +1,10 @@
-/* Add CSS Styling */
+@charset "utf-8";
+
+.avatar.proportioned {
+  width: 300px;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
+}
