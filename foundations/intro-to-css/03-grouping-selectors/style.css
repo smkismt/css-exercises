@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+@charset "UTF-8";
+
+.selector__button--primary,
+.selector__button--secondary {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.selector__button--primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.selector__button--secondary {
+  background-color: rgb(255, 255, 0);
+}
