@@ -26,7 +26,7 @@ body {
   gap: 16px;
 }
 
-.modal__body {
+.modal__content {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -35,12 +35,12 @@ body {
 .modal__title {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .header {
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .icon {
