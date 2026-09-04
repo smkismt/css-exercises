@@ -41,6 +41,10 @@ ul {
   padding: 0;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -50,7 +54,7 @@ a {
 .header {
   display: flex;
   align-items: center;
-  padding-left: 16px;
+  padding: 0 16px;
   font-size: 32px;
   font-weight: 900;
 }
@@ -67,15 +71,14 @@ a {
 
 .container__cards {
   display: flex;
-  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 32px;
   padding: 48px;
 }
 
 .card {
-  max-width: 400px;
-  padding-left: 16px;
+  width: 300px;
+  padding: 16px;
 }
 
 .footer {
